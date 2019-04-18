@@ -34,3 +34,5 @@ public function listAction(Request $request)
       // parameters to template
       return $this->render('AcmeMainBundle:Article:list.html.twig', array('pagination' => $pagination));
     }
+
+// Fin des fonctions
